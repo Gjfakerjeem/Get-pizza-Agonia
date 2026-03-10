@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../favicon.ico" />
+    <script src="../js/theme-init.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="py-7 fixed shadow-md w-full z-50">
+      <!-- wrapper -->
+      <div class="flex justify-between items-center">
+        <!-- logo -->
+        <div class="flex items-center gap-2">
+          <img class="size-fit" src="../IMG/LOGO.png" alt="logo" />
+        </div>
+        <!-- nav -->
+        <nav class="headerNav">
+          <ul class="uppercase">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- toggle menu -->
+        <div class="toggleMenu">
+          <span></span>
+
+          <span></span>
+        </div>
+        <!-- transparent -->
+        <div class="transparent"></div>
+      </div>
+    </header>
+    <section class="bg-tertiary/10 pt-40">
+      <div class="container">
+        <div>
+          <h6
+            class="flex text-center py-2.5 text-primary md:items-center justify-center"
+          >
+            This Website provides information about our store. Online
+            transactions are coming soon.
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!--wrapper-->
+      <div class="flex flex-col md:flex-row gap-2">
+        <div class="p-10 flex item-center">
+          <iframe
+            width="500 "
+            height="315"
+            src="https://www.youtube.com/embed/Y6MHE0-CQAs?si=AjMW8D-ZbYL1If47"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <div class="contentDetails md: p-10">
+          <!--details-->
+          <h2 class="text-primary text-left text-5xl md: pb-10">
+            SERVING GET <br />PIZZAS <br />BY THE SINCE 1985
+          </h2>
+          <p class="pb-5">
+            We would like to take this opportunity to welcome you at our Pizza
+            House- We are offering a warm, friendly atmosphere to share a meal
+            with family and friends at any time ot the day or evening.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-2xl mx-auto py-10 px-4">
+      <h1 class="text-4xl font-black text-center mb-8">OUR STORY</h1>
+
+      <div class="space-y-4">
+        <div
+          class="bg-primary text-white flex justify-between items-center px-6 py-4 cursor-pointer"
+        >
+          <span class="text-xl font-bold">1985</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div
+          class="bg-primary text-white flex justify-between items-center px-6 py-4 cursor-pointer"
+        >
+          <span class="text-xl font-bold">1990</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div
+          class="bg-primary text-white flex justify-between items-center px-6 py-4 cursor-pointer"
+        >
+          <span class="text-xl font-bold">2000</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div
+          class="bg-primary text-white flex justify-between items-center px-6 py-4 cursor-pointer"
+        >
+          <span class="text-xl font-bold">2010</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <div
+          class="bg-primary text-white flex justify-between items-center px-6 py-4 cursor-pointer"
+        >
+          <span class="text-xl font-bold">2021</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bg-tertiary py-14 md:py-20">
+      <div class="container">
+        <h2
+          class="text-center text-white font-bold tracking-wide text-[clamp(1.8rem,4vw,2.6rem)]"
+        >
+          WE OFFER PEOPLE BEST WAY TO<br class="hidden sm:block" />
+          EAT BEST FOOD
+        </h2>
+      </div>
+    </section> 
+
+    <section id="offer" class="bg-tertiary py-14 md:py-20">
+      <div class="container">
+        <!-- Header -->
+        <h2
+          class="text-center text-white font-bold tracking-wide text-[clamp(1.8rem,4vw,2.6rem)]"
+        >
+          WE OFFER PEOPLE BEST WAY TO<br class="hidden sm:block" />
+          EAT BEST FOOD
+        </h2>
+
+        <!-- Icon Tabs -->
+        <div class="mt-10 flex justify-center gap-5 flex-wrap">
+          <button
+            class="offerTab is-active cursor-pointer rounded-full bg-white p-4 shadow-sm ring-4 ring-red-700 transition"
+            data-category="pizza"
+            aria-pressed="true"
+            type="button"
+          >
+            <span class="offerIconWrap block w-10 h-10">
+              <img
+                src="../IMG/pizzaa.png"
+                alt="pizza-icon"
+                class="w-full h-full object-contain"
+              />
+            </span>
+          </button>
+
+          <button
+            class="offerTab cursor-pointer rounded-full bg-white p-4 shadow-sm ring-2 ring-transparent hover:ring-4 hover:ring-yellow-400 transition"
+            data-category="burger"
+            aria-pressed="false"
+            type="button"
+          >
+            <span class="offerIconWrap block w-10 h-10">
+              <img
+                src="../IMG/burger.png"
+                alt="burger-icon"
+                class="w-full h-full object-contain"
+              />
+            </span>
+          </button>
+
+          <button
+            class="offerTab cursor-pointer rounded-full bg-white p-4 shadow-sm ring-2 ring-transparent hover:ring-4 hover:ring-yellow-400 transition"
+            data-category="chicken"
+            aria-pressed="false"
+            type="button"
+          >
+            <span class="offerIconWrap block w-10 h-10">
+              <img
+                src="../IMG/chicken.png"
+                alt="chicken-icon"
+                class="w-full h-full object-contain"
+              />
+            </span>
+          </button>
+
+          <button
+            class="offerTab cursor-pointer rounded-full bg-white p-4 shadow-sm ring-2 ring-transparent hover:ring-4 hover:ring-yellow-400 transition"
+            data-category="drinks"
+            aria-pressed="false"
+            type="button"
+          >
+            <span class="offerIconWrap block w-10 h-10">
+              <img
+                src="../IMG/drinks.png"
+                alt="drinks-icon"
+                class="w-full h-full object-contain"
+              />
+            </span>
+          </button>
+
+          <button
+            class="offerTab cursor-pointer rounded-full bg-white p-4 shadow-sm ring-2 ring-transparent hover:ring-4 hover:ring-yellow-400 transition"
+            data-category="dessert"
+            aria-pressed="false"
+            type="button"
+          >
+            <span class="offerIconWrap block w-10 h-10">
+              <img
+                src="../IMG/cake.png"
+                alt="cake-icon"
+                class="w-full h-full object-contain"
+              />
+            </span>
+          </button>
+        </div>
+
+        <!-- Offer Cards -->
+        <div id="offerGrid" class="mt-12 grid grid-cols-2 md:grid-cols-2 gap-8">
+          <!-- PIZZA (visible by default) -->
+          <div
+            class="offerCard flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="pizza"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/prosciutto.png"
+                alt="Prosciutto Pizza"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl w-60">
+              PROSCIUTTO PIZZA
+            </h3>
+            <p class="text-white font-semibold mt-2">$25.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <div
+            class="offerCard flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="pizza"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/bbq pizza.png"
+                alt="Barbecue Pizza"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              BARBECUE PIZZA
+            </h3>
+            <p class="text-white font-semibold mt-2">$25.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <!-- BURGER (hidden by default) -->
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="burger"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/CHEESE BURGER.png"
+                alt="Cheese Burger"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              CHEESE BURGER
+            </h3>
+            <p class="text-white font-semibold mt-2">$15.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="burger"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/CHEESE BURGER.png"
+                alt="Double Burger"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              CHEESE BURGER
+            </h3>
+            <p class="text-white font-semibold mt-2">$18.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <!-- CHICKEN (hidden by default) -->
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="chicken"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/CHICKEN WITH BREAD.png"
+                alt="Fillet with bread"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              FILLET WITH BREAD
+            </h3>
+            <p class="text-white font-semibold mt-2">$45.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="chicken"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/CHICKEN WITH BREAD.png"
+                alt="Fillet with bread"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              FILLET WITH BREAD
+            </h3>
+            <p class="text-white font-semibold mt-2">$58.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <!-- DRINKS (hidden by default) -->
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="drinks"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/ORANGE DRINK.png"
+                alt="Orange Drink"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              ORANGE DRINK
+            </h3>
+            <p class="text-white font-semibold mt-2">$10.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="drinks"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/ORANGE DRINK.png"
+                alt="Orange Drink"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              ORANGE DRINK
+            </h3>
+            <p class="text-white font-semibold mt-2">$12.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <!-- DESSERT (hidden by default) -->
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="dessert"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/MUFFIN-CAKE.png"
+                alt="Muffin"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              MUFFIN
+            </h3>
+            <p class="text-white font-semibold mt-2">$20.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+
+          <div
+            class="offerCard hidden flex flex-col items-center text-center border-2 border-white rounded-2xl p-8"
+            data-category="dessert"
+          >
+            <div
+              class="offerCircle flex items-center justify-center w-40 h-40 rounded-full mb-6"
+            >
+              <img
+                src="../IMG/MUFFIN-CAKE.png"
+                alt="Muffin"
+                class="w-24 h-24 object-contain"
+              />
+            </div>
+            <h3 class="text-white font-extrabold tracking-wide text-xl">
+              MUFFIN
+            </h3>
+            <p class="text-white font-semibold mt-2">$23.00</p>
+            <div class="mt-3 mb-4 text-yellow-400 text-xl">★★★★★</div>
+            <a class="btn--red w-fit px-4 py-2 rounded-xl" href="#"
+              >Read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-20">
+      <div class="container">
+        <h2 class="title text-center">CLIENT REVIEW</h2>
+        <!-- wrapper -->
+        <div class="max-w-3xl mx-auto">
+          <div class="testimonialSlider">
+            <!-- 1 -->
+            <div class="testimonialItem">
+              <img src="../IMG/feedback.png" alt="Sarah Johnson" />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                delectus sit inventore nesciunt. Ipsa totam eaque est quidem, ea
+                similique!
+              </p>
+              <h6>Patrick Greenish</h6>
+            </div>
+            <!-- 2 -->
+            <div class="testimonialItem">
+              <img src="../IMG/feedback2.png" alt="Michael Chen" />
+              <p>
+                "From design to deployment, their attention to detail was
+                impressive. They became true partners in our digital
+                transformation journey."
+              </p>
+              <h6>Patrick Greenish</h6>
+            </div>
+            <!-- 3 -->
+            <div class="testimonialItem">
+              <img src="../IMG/feedback3.png" alt="Emma Rodriguez" />
+              <p>
+                "Their SEO strategy tripled our organic traffic in 6 months.
+                We've seen a dramatic improvement in lead quality and conversion
+                rates."
+              </p>
+              <h6>Patrick Greenish</h6>
+            </div>
+            <!-- 4 -->
+            <div class="testimonialItem">
+              <img src="../IMG/feedback4.png" alt="Emma Rodriguez" />
+              <p>
+                "Their SEO strategy tripled our organic traffic in 6 months.
+                We've seen a dramatic improvement in lead quality and conversion
+                rates."
+              </p>
+              <h6>Patrick Greenish</h6>
+            </div>
+
+            <!-- 5 -->
+            <div class="testimonialItem">
+              <img src="../IMG/feedback5.png" alt="Emma Rodriguez" />
+              <p>
+                "Their SEO strategy tripled our organic traffic in 6 months.
+                We've seen a dramatic improvement in lead quality and conversion
+                rates."
+              </p>
+              <h6>Patrick Greenish</h6>
+            </div>
+
+            <!-- 5 -->
+            <div class="testimonialItem">
+              <img src="../IMG/feedback6.png" alt="Emma Rodriguez" />
+              <p>
+                "Their SEO strategy tripled our organic traffic in 6 months.
+                We've seen a dramatic improvement in lead quality and conversion
+                rates."
+              </p>
+              <h6>Patrick Greenish</h6>
+            </div>
+          </div>
+          <!-- controls -->
+          <div id="controls" class="relative">
+            <a class="prev">
+              <div class="absolute bottom-40 -left-5 -translate-y-1/2 z-30">
+                <button
+                  class="shadow-md size-10 rounded-full bg-white text-black/90 text-2xl cursor-pointer"
+                >
+                  &lt;
+                </button>
+              </div>
+            </a>
+            <a class="next">
+              <div class="absolute bottom-40 -right-5 -translate-y-1/2 z-30">
+                <button
+                  class="shadow-md size-10 rounded-full bg-white text-black/90 text-2xl cursor-pointer"
+                >
+                  &gt;
+                </button>
+              </div>
+            </a>
+          </div>
+          <div class="tns-nav"></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-primary flex flex-col items-center justify-center text-center pt-10 pb-10 md:pb-0"
+    >
+      <div class="container">
+        <div class="md:flex flex-col justify-center md:flex-row items-center">
+          <div>
+            <img class="hidden md:block" src="../IMG/chef.png" alt="" />
+          </div>
+          <div class="text-white pb-5 md:flex flex-col">
+            <h3>LET'S CONNECT</h3>
+            <p class="pb-5">and get a 10% off bill offers and invites</p>
+            <div class="max-w-xl bg-gray-100 p-4 md:flex-col">
+              <div class="flex items-center justify-between">
+                <input
+                  type="email"
+                  placeholder="YOUR EMAIL ADDRESS"
+                  class="flex-1 bg-transparent outline-none text-gray-500 placeholder-gray-400 text-sm"
+                />
+                <button
+                  class="ml-4 bg-amber-400 hover:bg-amber-500 text-black font-semibold px-6 py-2 rounded-xl transition"
+                >
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-10 flex flex-col text-center justify-center items-center">
+      <div class="container">
+        <!-- logo -->
+        <div class="grid place-content-center">
+          <img src="../IMG/logo.png" alt="" />
+        </div>
+        <!-- wrapper -->
+        <div
+          class="md:flex flex-row justify-center items-center text-center py-5"
+        >
+          <div class="m-5">
+            <h4>ADDRESS</h4>
+            <p>570 8th Ave, New York, NY</p>
+            <p>10018 United States</p>
+          </div>
+          <div class="m-5">
+            <h4>BOOK A TABLE</h4>
+            <p>Dogfood Och Sliders Foodtruck.</p>
+            <p>Under Om Oss Kan Ni Lasa</p>
+          </div>
+          <div class="m-5">
+            <h4>OPENING HOURS</h4>
+            <p>Monday - Friday</p>
+            <p>10:00 AM - 11:00 PM</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-primary">0123456987</p>
+        </div>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="../js/toggle-menu.js"></script>
+    <script src="../js/tab.js"></script>
+    <script src="../js/slider.js"></script>
+  </body>
+</html>

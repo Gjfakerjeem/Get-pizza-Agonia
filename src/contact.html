@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="icon" href="../favicon.ico" />
+    <script src="../js/theme-init.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+     <header class="py-7 fixed shadow-md w-full z-50">
+      <!-- wrapper -->
+      <div class="flex justify-between items-center">
+        <!-- logo -->
+        <div class="flex items-center gap-2">
+          <img class="size-fit" src="../IMG/LOGO.png" alt="logo" />
+        </div>
+        <!-- nav -->
+        <nav class="headerNav">
+          <ul class="uppercase">
+            <li><a href="#home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#menu.html">MENU</a></li>
+            <li><a href="#contact.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- toggle menu -->
+        <div class="toggleMenu">
+          <span></span>
+
+          <span></span>
+        </div>
+        <!-- transparent -->
+        <div class="transparent"></div>
+      </div>
+    </header>
+
+    <section class="bg-tertiary/10 pt-40">
+      <div class="container">
+        <div>
+          <h6
+            class="flex text-center py-2.5 text-primary md:items-center justify-center"
+          >
+            This Website provides information about our store. Online
+            transactions are comming soon.
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-7">
+       <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.3721465689837!2d121.34546637593823!3d14.05518838636906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5cd2d6006569%3A0x9075b8a72b9d5fb0!2sFrontline%20Business%20Solutions%2C%20Inc.!5e0!3m2!1sen!2sph!4v1772753975177!5m2!1sen!2sph" 
+            width="700" 
+            class="w-full h-150"
+            height="550" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+       </div>
+    </section>
+
+
+  <section class="bg-secondary">
+    <div class="container lg:w-200">
+        <div>
+            <h1 class="text-3xl font-bold text-center py-10">GET IN TOUCH</h1>
+        </div>
+
+        <form >
+            <!-- First & Last Name -->
+            <div class="flex gap-4">
+                <input class="border p-2 " type="text" id="name" name="name" placeholder="First Name" required>
+                <input class="border p-2 " type="text" id="lastName" placeholder="Last Name">
+            </div>
+
+            <!-- Email & Subject -->
+            <div class="">
+                <input class="border p-2 " type="email" id="email" name="email" placeholder="Email Address" required>
+                <input class="border p-2 " type="text" id="subject" placeholder="Subject">
+            </div>
+
+            <!-- Message -->
+            <div>
+                <textarea class="border " rows="6" id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <!-- Centered Button -->
+            <div class="flex justify-center">
+                <button class="bg-primary rounded-2xl text-white px-6 py-3" type="submit">
+                    Submit form
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="p-10 flex flex-col text-center justify-center items-center">
+      <div class="container">
+        <!-- logo -->
+        <div class="grid place-content-center">
+          <img src="../IMG/logo.png" alt="" />
+        </div>
+        <!-- wrapper -->
+        <div
+          class="md:flex flex-row justify-center items-center text-center py-5"
+        >
+          <div class="m-5">
+            <h4>ADDRESS</h4>
+            <p>570 8th Ave, New York, NY</p>
+            <p>10018 United States</p>
+          </div>
+          <div class="m-5">
+            <h4>BOOK A TABLE</h4>
+            <p>Dogfood Och Sliders Foodtruck.</p>
+            <p>Under Om Oss Kan Ni Lasa</p>
+          </div>
+          <div class="m-5">
+            <h4>OPENING HOURS</h4>
+            <p>Monday - Friday</p>
+            <p>10:00 AM - 11:00 PM</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-primary">0123456987</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
